@@ -29,7 +29,7 @@ const int MAX = 10;
 void FillArray(Animals exhibit[], int &size);
 
 // Print Array
-void PrintArray(Animals exhibit[], int &size);
+void PrintArray(Animals exhibit[], int size);
 
 // Copy Array
 void CopyArray(Animals exhibit[], Animals newExhibit[], int &size1, int &size2);
@@ -55,6 +55,7 @@ int main()
         cout << "Choose from selection (1-5)";
         cin >> selection;
 
+        // menu selection switch
         switch (selection)
         {
         case 1:
